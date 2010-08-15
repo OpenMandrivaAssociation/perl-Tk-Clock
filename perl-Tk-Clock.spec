@@ -1,11 +1,11 @@
 %define upstream_name    Tk-Clock
-%define upstream_version 0.28
+%define upstream_version 0.29
 
 %define _requires_exceptions /pro/bin/perl
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Canvas based Clock widget
 License:    GPL+ or Artistic
