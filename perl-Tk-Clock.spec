@@ -1,6 +1,5 @@
 %define upstream_name    Tk-Clock
-%define upstream_version 0.29
-
+%define upstream_version 0.33
 %if %{_use_internal_dependency_generator}
 %define __noautoreq '/pro/bin/perl'
 %else
@@ -8,14 +7,14 @@
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.33
+Release:	1
 
 Summary:	Canvas based Clock widget
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Tk/%{upstream_name}-%{upstream_version}.tgz
+Source0:	http://www.cpan.org/modules/by-module/Tk/Tk-Clock-0.33.tgz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -77,3 +76,4 @@ xvfb-run %make test
 
 * Tue Mar 16 2010 cpan2dist 0.28-1mdv
 - initial mdv release, generated with cpan2dist
+
