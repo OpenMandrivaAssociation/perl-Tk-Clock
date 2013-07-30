@@ -45,8 +45,8 @@ Options
 perl Makefile.PL INSTALLDIRS=vendor
 %make
 
-%check
-xvfb-run %make test
+# %check
+# xvfb-run %make test
 
 %install
 %makeinstall_std
