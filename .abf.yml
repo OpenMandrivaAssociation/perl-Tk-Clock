@@ -2,5 +2,6 @@ removed_sources:
   Tk-Clock-0.29.tgz: 2cd2714c2cbff58e7399ea758bb82ed4994fe4f6
   Tk-Clock-0.33.tgz: 115329fc263338082b68db0e00377c049fc8ab66
   Tk-Clock-0.34.tgz: 2e843a81fa0a1648e355bf8e6bfb003f1bb29ce7
-sources:
   Tk-Clock-0.35.tgz: e5f72b6a50b47741ee051a3b275d1d32a35da77c
+sources:
+  Tk-Clock-0.36.tgz: c216cfda750a203995c9e3a3953b9d43d3a21325
